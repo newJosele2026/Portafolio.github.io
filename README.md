@@ -89,6 +89,14 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - git remote add origin https://github.com/newJosele2026/Portafolio.github.io.git
 - git push -u origin master
 - npm install -g @angular/cli
+- ng generate component inicio
+- ng generate component HojaVida
+- ng generate component Proyecto
+- ng generate component Comunicacion
+- npm install --legacy-peer-deps(cuidado con el archivo node_modules, package-lock.json si se desea instalar nebular)
+- npm install @angular/aria@21.2.14 
+- ng add @angular/material
+- ng add @nebular/theme
 - comando final npm i
 
 ### REF
