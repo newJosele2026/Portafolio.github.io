@@ -1,7 +1,7 @@
-> 🇬🇧 [English version below](#-english) | 🇪🇸 Español [Spanish version below](#-spanish)
+> English | 🇪🇸 Español [Spanish version below](#-spanish)
 <div align="center">
 
-# 🇬🇧 Hi there, I'm Herman José García Pacheco👋
+# Hi there, I'm Herman José García Pacheco👋
 
 💻 Full Stack Developer | ⚡ System Engineer or Computer Engineer | Software Engineering| 🚀 Problem Solver
 
@@ -27,7 +27,6 @@ portafolio/
 ```
 
 ## Screen
-
 ### Home
 Screen that summarizes the portfolio page. 
 ### Curriculum Vitae
@@ -82,12 +81,16 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - Agregar iconos a este README y pasar a ingles.
 
 ### Comando usados como historico
-ng new portafolio
-git init
-git add .
-git commit -m "Version inicial"
-git branch -M master
-git remote add origin https://github.com/newJosele2026/Portafolio.github.io.git
-git push -u origin master
+- ng new portafolio
+- git init
+- git add .
+- git commit -m "Version inicial"
+- git branch -M master
+- git remote add origin https://github.com/newJosele2026/Portafolio.github.io.git
+- git push -u origin master
+- npm install -g @angular/cli
+- comando final npm i
 
-npm i
+### REF
+- https://akveo.github.io/nebular/docs/guides/install-nebular#using-angular-cli
+- https://angular.dev/tutorials/learn-angular
