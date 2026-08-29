@@ -21,9 +21,72 @@ This proyect was generated using [Angular CLI](https://github.com/angular/angula
 
 ```
 portafolio/
-├── src/ 
+├── angular.json
 ├── package.json
-└── angular.json
+├── README.md
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.spec.json
+├── public/
+├── src/
+├── index.html
+├── main.server.ts
+├── main.ts
+├── server.ts
+├── styles.scss
+└── app/
+    ├── app.config.server.ts
+    ├── app.config.ts
+    ├── app.html
+    ├── app.routes.server.ts
+    ├── app.routes.ts
+    ├── app.scss
+    ├── app.spec.ts
+    ├── app.ts
+    ├── pages/
+    ├── comunicacion/
+    ├── comunicacion.html
+    ├── comunicacion.scss
+    ├── comunicacion.spec.ts
+    └── comunicacion.ts
+    ├── hoja-vida/
+    ├── hoja-vida.html
+    ├── hoja-vida.scss
+    ├── hoja-vida.spec.ts
+    └── hoja-vida.ts
+    ├── inicio/
+    ├── inicio.html
+    ├── inicio.scss
+    ├── inicio.spec.ts
+    └── inicio.ts
+    └── proyecto/
+        ├── proyecto.html
+        ├── proyecto.scss
+        ├── proyecto.spec.ts
+        └── proyecto.ts
+    ├── services/
+    ├── services.spec.ts
+    └── services.ts
+    └── shared/
+        └── component/
+            ├── footer/
+            ├── footer.html
+            ├── footer.scss
+            ├── footer.spec.ts
+            └── footer.ts
+            ├── header/
+            ├── header.html
+            ├── header.scss
+            ├── header.spec.ts
+            └── header.ts
+            └── menuComponent/
+                ├── menuComponent.html
+                ├── menuComponent.scss
+                ├── menuComponent.spec.ts
+                ├── menuComponent.ts
+                └── menu-routing/
+                    ├── menu-routing-module.ts
+                    └── menu-routing-routing-module.ts
 ```
 
 ## Screen
@@ -56,9 +119,72 @@ Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angul
 
 ```
 portafolio/
-├── src/ 
+├── angular.json
 ├── package.json
-└── angular.json
+├── README.md
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.spec.json
+├── public/
+├── src/
+├── index.html
+├── main.server.ts
+├── main.ts
+├── server.ts
+├── styles.scss
+└── app/
+    ├── app.config.server.ts
+    ├── app.config.ts
+    ├── app.html
+    ├── app.routes.server.ts
+    ├── app.routes.ts
+    ├── app.scss
+    ├── app.spec.ts
+    ├── app.ts
+    ├── pages/
+    ├── comunicacion/
+    ├── comunicacion.html
+    ├── comunicacion.scss
+    ├── comunicacion.spec.ts
+    └── comunicacion.ts
+    ├── hoja-vida/
+    ├── hoja-vida.html
+    ├── hoja-vida.scss
+    ├── hoja-vida.spec.ts
+    └── hoja-vida.ts
+    ├── inicio/
+    ├── inicio.html
+    ├── inicio.scss
+    ├── inicio.spec.ts
+    └── inicio.ts
+    └── proyecto/
+        ├── proyecto.html
+        ├── proyecto.scss
+        ├── proyecto.spec.ts
+        └── proyecto.ts
+    ├── services/
+    ├── services.spec.ts
+    └── services.ts
+    └── shared/
+        └── component/
+            ├── footer/
+            ├── footer.html
+            ├── footer.scss
+            ├── footer.spec.ts
+            └── footer.ts
+            ├── header/
+            ├── header.html
+            ├── header.scss
+            ├── header.spec.ts
+            └── header.ts
+            └── menuComponent/
+                ├── menuComponent.html
+                ├── menuComponent.scss
+                ├── menuComponent.spec.ts
+                ├── menuComponent.ts
+                └── menu-routing/
+                    ├── menu-routing-module.ts
+                    └── menu-routing-routing-module.ts
 ```
 
 ## Pantalla
@@ -97,6 +223,8 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - npm install @angular/aria@21.2.14 
 - ng add @angular/material
 - ng add @nebular/theme
+- ng generate module --routing menuRouting
+- npm install bootstrap --save 
 - comando final npm i
 
 ### REF

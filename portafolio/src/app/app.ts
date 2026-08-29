@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { MenuComponent } from './menuComponent/menuComponent';
+import { MenuComponent } from './shared/component/menuComponent/menuComponent';
 
 @Component({
   selector: 'app-root',
