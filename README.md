@@ -23,7 +23,6 @@ This proyect was generated using [Angular CLI](https://github.com/angular/angula
 portafolio/
 ├── angular.json
 ├── package.json
-├── README.md
 ├── tsconfig.json
 ├── tsconfig.app.json
 ├── tsconfig.spec.json
@@ -121,7 +120,6 @@ Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angul
 portafolio/
 ├── angular.json
 ├── package.json
-├── README.md
 ├── tsconfig.json
 ├── tsconfig.app.json
 ├── tsconfig.spec.json
@@ -225,6 +223,8 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - ng add @nebular/theme
 - ng generate module --routing menuRouting
 - npm install bootstrap --save 
+- npm generate service services
+- ng add @ng-bootstrap/ng-bootstrap
 - comando final npm i
 
 ### REF

@@ -6,6 +6,8 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 
+/* Importing Bootstrap SCSS file. */
+@use 'bootstrap/scss/bootstrap' as *;
 html {
   height: 100%;
   @include mat.theme((
@@ -35,5 +37,22 @@ body {
   margin: 0;
   height: 100%;
 }
+@import "tailwindcss";
 
+@theme {
+  --color-primary: #0f172a;
+  --color-secondary: #334155;
+  --color-surface: #f7f9fb;
+  --color-on-surface: #1e293b;
+  --color-outline-variant: #d8dadc;
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  @apply bg-surface text-on-surface;
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-6;
+}
 /* You can add global styles to this file, and also import other style files */
