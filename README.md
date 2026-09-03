@@ -9,8 +9,7 @@
 
 </div>
 
-# Portfolio V 0.0.3
-
+# Portfolio V 0.0.4
 This proyect was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2., it will show a profesional profile of Herman José García Pacheco.
 
 ## Requeriment
