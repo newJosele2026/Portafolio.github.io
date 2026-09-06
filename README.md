@@ -219,7 +219,8 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - npm generate service services
 - ng add @ng-bootstrap/ng-bootstrap
 - comando final npm i
-
+- ng build
+- npm start
 ### REF
 - https://akveo.github.io/nebular/docs/guides/install-nebular#using-angular-cli
 - https://angular.dev/tutorials/learn-angular
