@@ -1,0 +1,26 @@
+ .timeline-marker {
+            width: 12px;
+            height: 12px;
+            background-color: #0F172A;
+            border-radius: 50%;
+            position: absolute;
+            left: -6px;
+            top: 6px;
+        }
+        .tech-chip {
+            border-left: 3px solid #006a66;
+        }
+        .bullet-point {
+            position: relative;
+            padding-left: 20px;
+        }
+        .bullet-point::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 6px;
+            height: 6px;
+            background-color: #006a66;
+            border-radius: 50%;
+        }

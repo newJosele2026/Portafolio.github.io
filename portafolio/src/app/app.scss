@@ -1,0 +1,20 @@
+.app-layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-height: 100dvh;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.app-content {
+	flex: 1;
+	width: 100%;
+	min-width: 0;
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+	.app-content {
+		padding-block: 0.5rem;
+	}
+}

@@ -1,0 +1,38 @@
+.header{
+  background-color: var(--color-primary,#0f172a);
+  border-color: var(--color-primary,#0f172a);
+}
+.header > .row {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) repeat(2, minmax(8rem, 1fr));
+  gap: 1rem;
+  margin: 0;
+}
+
+.header .row,
+.header [class*='col-'],
+.header .col {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.header p {
+  color: white;
+  text-align: center; 
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+  .header > .row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+  .header {
+    padding-block: 0.5rem;
+  }
+}

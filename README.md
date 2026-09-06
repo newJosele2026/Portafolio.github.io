@@ -9,7 +9,7 @@
 
 </div>
 
-# Portfolio V 0.0.4
+# Portfolio V 0.0.5
 This proyect was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2., it will show a profesional profile of Herman José García Pacheco.
 
 ## Requeriment
@@ -27,64 +27,61 @@ portafolio/
 ├── tsconfig.spec.json
 ├── public/
 ├── src/
-├── index.html
-├── main.server.ts
-├── main.ts
-├── server.ts
-├── styles.scss
-└── app/
-    ├── app.config.server.ts
-    ├── app.config.ts
-    ├── app.html
-    ├── app.routes.server.ts
-    ├── app.routes.ts
-    ├── app.scss
-    ├── app.spec.ts
-    ├── app.ts
-    ├── pages/
-    ├── comunicacion/
-    ├── comunicacion.html
-    ├── comunicacion.scss
-    ├── comunicacion.spec.ts
-    └── comunicacion.ts
-    ├── hoja-vida/
-    ├── hoja-vida.html
-    ├── hoja-vida.scss
-    ├── hoja-vida.spec.ts
-    └── hoja-vida.ts
-    ├── inicio/
-    ├── inicio.html
-    ├── inicio.scss
-    ├── inicio.spec.ts
-    └── inicio.ts
-    └── proyecto/
-        ├── proyecto.html
-        ├── proyecto.scss
-        ├── proyecto.spec.ts
-        └── proyecto.ts
-    ├── services/
-    ├── services.spec.ts
-    └── services.ts
-    └── shared/
-        └── component/
-            ├── footer/
-            ├── footer.html
-            ├── footer.scss
-            ├── footer.spec.ts
-            └── footer.ts
-            ├── header/
-            ├── header.html
-            ├── header.scss
-            ├── header.spec.ts
-            └── header.ts
-            └── menuComponent/
-                ├── menuComponent.html
-                ├── menuComponent.scss
-                ├── menuComponent.spec.ts
-                ├── menuComponent.ts
-                └── menu-routing/
-                    ├── menu-routing-module.ts
-                    └── menu-routing-routing-module.ts
+    ├── index.html
+    ├── main.server.ts
+    ├── main.ts
+    ├── server.ts
+    ├── styles.scss
+    └── app/
+        ├── app.config.server.ts
+        ├── app.config.ts
+        ├── app.html
+        ├── app.routes.server.ts
+        ├── app.routes.ts
+        ├── app.scss
+        ├── app.spec.ts
+        ├── app.ts
+        ├── pages/
+        ├── comunicacion/
+            ├── comunicacion.html
+            ├── comunicacion.scss
+            ├── comunicacion.spec.ts
+            └── comunicacion.ts
+        ├── hoja-vida/
+            ├── hoja-vida.html
+            ├── hoja-vida.scss
+            ├── hoja-vida.spec.ts
+            └── hoja-vida.ts
+        ├── inicio/
+            ├── inicio.html
+            ├── inicio.scss
+            ├── inicio.spec.ts
+            └── inicio.ts
+        └── proyecto/
+            ├── proyecto.html
+            ├── proyecto.scss
+            ├── proyecto.spec.ts
+            └── proyecto.ts
+        ├── services/
+            ├── services.spec.ts
+            └── services.ts
+        └── shared/
+            └── component/
+                ├── footer/
+                ├── footer.html
+                ├── footer.scss
+                ├── footer.spec.ts
+                └── footer.ts
+                ├── header/
+                ├── header.html
+                ├── header.scss
+                ├── header.spec.ts
+                └── header.ts
+                └── menuComponent/
+                    ├── menuComponent.html
+                    ├── menuComponent.scss
+                    ├── menuComponent.spec.ts
+                    └── menuComponent.ts
 ```
 
 ## Screen
@@ -124,64 +121,61 @@ portafolio/
 ├── tsconfig.spec.json
 ├── public/
 ├── src/
-├── index.html
-├── main.server.ts
-├── main.ts
-├── server.ts
-├── styles.scss
-└── app/
-    ├── app.config.server.ts
-    ├── app.config.ts
-    ├── app.html
-    ├── app.routes.server.ts
-    ├── app.routes.ts
-    ├── app.scss
-    ├── app.spec.ts
-    ├── app.ts
-    ├── pages/
-    ├── comunicacion/
-    ├── comunicacion.html
-    ├── comunicacion.scss
-    ├── comunicacion.spec.ts
-    └── comunicacion.ts
-    ├── hoja-vida/
-    ├── hoja-vida.html
-    ├── hoja-vida.scss
-    ├── hoja-vida.spec.ts
-    └── hoja-vida.ts
-    ├── inicio/
-    ├── inicio.html
-    ├── inicio.scss
-    ├── inicio.spec.ts
-    └── inicio.ts
-    └── proyecto/
-        ├── proyecto.html
-        ├── proyecto.scss
-        ├── proyecto.spec.ts
-        └── proyecto.ts
-    ├── services/
-    ├── services.spec.ts
-    └── services.ts
-    └── shared/
-        └── component/
-            ├── footer/
-            ├── footer.html
-            ├── footer.scss
-            ├── footer.spec.ts
-            └── footer.ts
-            ├── header/
-            ├── header.html
-            ├── header.scss
-            ├── header.spec.ts
-            └── header.ts
-            └── menuComponent/
-                ├── menuComponent.html
-                ├── menuComponent.scss
-                ├── menuComponent.spec.ts
-                ├── menuComponent.ts
-                └── menu-routing/
-                    ├── menu-routing-module.ts
-                    └── menu-routing-routing-module.ts
+    ├── index.html
+    ├── main.server.ts
+    ├── main.ts
+    ├── server.ts
+    ├── styles.scss
+    └── app/
+        ├── app.config.server.ts
+        ├── app.config.ts
+        ├── app.html
+        ├── app.routes.server.ts
+        ├── app.routes.ts
+        ├── app.scss
+        ├── app.spec.ts
+        ├── app.ts
+        ├── pages/
+        ├── comunicacion/
+            ├── comunicacion.html
+            ├── comunicacion.scss
+            ├── comunicacion.spec.ts
+            └── comunicacion.ts
+        ├── hoja-vida/
+            ├── hoja-vida.html
+            ├── hoja-vida.scss
+            ├── hoja-vida.spec.ts
+            └── hoja-vida.ts
+        ├── inicio/
+            ├── inicio.html
+            ├── inicio.scss
+            ├── inicio.spec.ts
+            └── inicio.ts
+        └── proyecto/
+            ├── proyecto.html
+            ├── proyecto.scss
+            ├── proyecto.spec.ts
+            └── proyecto.ts
+        ├── services/
+            ├── services.spec.ts
+            └── services.ts
+        └── shared/
+            └── component/
+                ├── footer/
+                ├── footer.html
+                ├── footer.scss
+                ├── footer.spec.ts
+                └── footer.ts
+                ├── header/
+                ├── header.html
+                ├── header.scss
+                ├── header.spec.ts
+                └── header.ts
+                └── menuComponent/
+                    ├── menuComponent.html
+                    ├── menuComponent.scss
+                    ├── menuComponent.spec.ts
+                    └── menuComponent.ts
 ```
 
 ## Pantalla
@@ -229,3 +223,4 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 ### REF
 - https://akveo.github.io/nebular/docs/guides/install-nebular#using-angular-cli
 - https://angular.dev/tutorials/learn-angular
+- https://material.angular.dev/
