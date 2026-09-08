@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'app-hoja-vida',
-  imports: [],
+  imports: [MatCardModule],
   templateUrl: './hoja-vida.html',
   styleUrl: './hoja-vida.scss',
 })
