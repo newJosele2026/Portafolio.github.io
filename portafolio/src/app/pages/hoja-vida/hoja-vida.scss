@@ -168,3 +168,10 @@ $font-headline-lg: "Hanken Grotesk", sans-serif;
   letter-spacing: -0.01em;
   font-weight: 700;
 }
+.resumen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

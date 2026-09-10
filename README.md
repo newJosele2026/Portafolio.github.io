@@ -217,7 +217,6 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - ng generate module --routing menuRouting
 - npm install bootstrap --save 
 - npm generate service services
-- ng add @ng-bootstrap/ng-bootstrap
 - comando final npm i
 - ng add angular-cli-ghpages()
 - ng deploy --base-href=github.com/newJosele2026/Portafolio.github.io/inicio
