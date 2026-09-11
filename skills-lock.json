@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "angular-material": {
+      "source": "pluginagentmarketplace/custom-plugin-angular",
+      "sourceType": "github",
+      "skillPath": "skills/angular-material/SKILL.md",
+      "computedHash": "539a70d810937d554a65be260d6bc28a85ad6515f8e84457303472bed7deceba"
+    },
+    "claude-api": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/claude-api/SKILL.md",
+      "computedHash": "e0736f1e350b9f3f3b5c6ca27a4bf4e6bb74aed762c2575210b336c499ddac80"
+    }
+  }
+}

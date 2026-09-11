@@ -1,0 +1,30 @@
+# Portafolio de Herman José García Pacheco
+
+> Sitio web personal (Angular 21, v0.2.1) del ingeniero de sistemas y desarrollador fullstack Herman José García Pacheco, en Bogotá, Colombia. Muestra perfil, hoja de vida, proyectos y contacto. Idioma principal de la interfaz: español.
+
+Este repositorio Git es la raíz; la aplicación Angular vive en la carpeta `portafolio/`. La versión publicada en GitHub (tag y Release `vX.Y.Z`) debe coincidir con `portafolio/package.json`. UI con Angular Material y Bootstrap. SSR con Express; despliegue estático previsto en GitHub Pages. No usa Nebular.
+
+Rutas de la SPA: `/` y desconocidas redirigen a `/inicio`. Pantallas: Inicio (resumen), Hoja de vida (CV completo: skills, experiencia, educación), Proyecto (grid placeholder, sin proyectos reales aún) y Comunicación (contacto; el envío de correo no está cableado). El menú compartido enlaza esas cuatro vistas.
+
+Contacto canónico: hermanjosegarciapacheco@gmail.com. Roles: fullstack, frontend, backend, Scrum Master, QA, soporte RPA/web scraping, DBA. Stack frecuente: Java, C#, JavaScript, Angular, Spring Boot, .NET, SQL Server, PostgreSQL, AWS, Docker, Jenkins.
+
+## Páginas
+
+- [Inicio](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/src/app/pages/inicio/inicio.html): saludo y resumen profesional (~6 años, microservicios, RPA, SQL, Scrum)
+- [Hoja de vida](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/src/app/pages/hoja-vida/hoja-vida.html): CV detallado (habilidades, experiencia Codesa/SII-BBVA/Smart Law Tech/CAIJECI, educación, cursos)
+- [Proyectos](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/src/app/pages/proyecto/proyecto.html): pantalla de proyectos / MVP; contenido aún placeholder
+- [Comunicación](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/src/app/pages/comunicacion/comunicacion.html): pantalla de contacto por correo
+- [Rutas Angular](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/src/app/app.routes.ts): mapa de rutas `inicio`, `hoja-vida`, `proyecto`, `comunicacion`
+
+## Documentación
+
+- [README](https://github.com/newJosele2026/Portafolio.github.io/blob/master/README.md): descripción del proyecto, estructura, pantallas y versionado (EN/ES)
+- [package.json](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/package.json): versión canónica, scripts (`start`, `build`, `version:patch`) y dependencias
+- [Repositorio](https://github.com/newJosele2026/Portafolio.github.io): código fuente en GitHub (rama `master`)
+
+## Optional
+
+- [Workflow de Release](https://github.com/newJosele2026/Portafolio.github.io/blob/master/.github/workflows/release-from-package.yml): crea el GitHub Release desde `package.json` al hacer push a `master`
+- [Sincronizar versión](https://github.com/newJosele2026/Portafolio.github.io/blob/master/scripts/sync-version.cjs): copia la versión de `package.json` al README
+- [angular.json](https://github.com/newJosele2026/Portafolio.github.io/blob/master/portafolio/angular.json): build Angular, assets de `public/` y deploy gh-pages
+- [Especificación llms.txt](https://llmstxt.org/): formato de este archivo

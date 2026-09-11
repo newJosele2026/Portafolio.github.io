@@ -9,11 +9,8 @@
 
 </div>
 
-# Portfolio V 0.0.5
 # Portfolio V 0.2.1
 This proyect was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2., it will show a profesional profile of Herman José García Pacheco.
-
-The published GitHub version comes from `portafolio/package.json`. Bump it from the `portafolio/` folder with `npm run version:patch` (or `version:minor` / `version:major`), commit, and push `master`. GitHub Actions creates the matching Release `vX.Y.Z`.
 
 ## Requeriment
 - Node
@@ -108,8 +105,6 @@ Simple screen that allows contacting via email.
 
 # Portafolio V 0.2.1
 Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2. estare mostrando el perfil profesional de Herman José García Pacheco.
-
-La versión que se publica en GitHub sale de `portafolio/package.json`. Súbela desde la carpeta `portafolio/` con `npm run version:patch` (o `version:minor` / `version:major`), haz commit y push a `master`. GitHub Actions crea el Release `vX.Y.Z`.
 
 ## Requerimientos
 - Docker instalar
@@ -215,21 +210,18 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - ng generate component HojaVida
 - ng generate component Proyecto
 - ng generate component Comunicacion
-- npm install --legacy-peer-deps(cuidado con el archivo node_modules, package-lock.json si desea adicionar otro paquete)
+- npm install --legacy-peer-deps(cuidado con el archivo node_modules, package-lock.json si se desea instalar nebular)
 - npm install @angular/aria@21.2.14 
 - ng add @angular/material
+- ng add @nebular/theme
 - ng generate module --routing menuRouting
 - npm install bootstrap --save 
 - npm generate service services
-- npx skills init
-- npx skills add https://github.com/anthropics/skills --skill claude-api
-- npx skills add https://github.com/samhvw8/dot-claude --skill databases
-- npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices
-- npx skills add https://github.com/pluginagentmarketplace/custom-plugin-angular --skill angular-material
 - comando final npm i
 - ng add angular-cli-ghpages()
 - ng deploy --base-href=github.com/newJosele2026/Portafolio.github.io/inicio
 - npm start
 ### REF
+- https://akveo.github.io/nebular/docs/guides/install-nebular#using-angular-cli
 - https://angular.dev/tutorials/learn-angular
 - https://material.angular.dev/
