@@ -1,20 +1,73 @@
 <div class="row">
     <div class="col-1"></div>
     <div class="col-10">
-        <div class="row">  
-            <div class="col">
-                <mat-grid-list cols="2" rowHeight="2:1">
-                    <mat-grid-tile class="cuadro">
-                        <a href="https://newjosele2026.github.io/CV-stich.github.io/index.html" rel="Curriculum Vitae" target="_blank">CV</a>
-                    </mat-grid-tile>
-                    <mat-grid-tile class="cuadro">
-                        <a href="https://newjosele2026.github.io/FullArte.github.io/" rel="FullArte" target="_blank">FullArte</a>
-                    </mat-grid-tile>
-                    <mat-grid-tile class="cuadro">3</mat-grid-tile>
-                    <mat-grid-tile class="cuadro">4</mat-grid-tile>
-                    <mat-grid-tile class="cuadro">5</mat-grid-tile>
-                    <mat-grid-tile class="cuadro">6</mat-grid-tile>
-                </mat-grid-list>
+        <div class="proyectos">
+            <h1 class="proyectos__title">
+                <mat-icon class="proyectos__title-icon" fontIcon="work"></mat-icon>
+                Proyectos
+            </h1>
+            <p class="proyectos__intro">
+                Proyectos principales y diseños realizados. Cada tarjeta incluye una breve descripción,
+                tecnologías utilizadas y el enlace para ver el resultado.
+            </p>
+
+            <div class="row g-4">
+                @for (proyecto of proyectos; track proyecto.nombre) {
+                <div class="col-12 col-md-6">
+                    <mat-card class="card-proyecto" appearance="outlined">
+                        <div class="card-proyecto__media">
+                            @if (proyecto.preview) {
+                            <iframe
+                                class="card-proyecto__iframe"
+                                [src]="previewUrl(proyecto)"
+                                title="{{ proyecto.nombre }}"
+                                loading="lazy"
+                                allowfullscreen>
+                            </iframe>
+                            } @else {
+                            <div class="card-proyecto__placeholder">
+                                <mat-icon class="card-proyecto__placeholder-icon" fontIcon="{{ proyecto.icono }}"></mat-icon>
+                                <span>{{ proyecto.nombre }}</span>
+                            </div>
+                            }
+                        </div>
+
+                        <mat-card-content class="card-proyecto__content">
+                            <div class="card-proyecto__header">
+                                <mat-icon class="card-proyecto__icon" fontIcon="{{ proyecto.icono }}"></mat-icon>
+                                <h2 class="card-proyecto__nombre">{{ proyecto.nombre }}</h2>
+                            </div>
+                            <p class="card-proyecto__descripcion">{{ proyecto.descripcion }}</p>
+                            <div class="card-proyecto__tags">
+                                @for (tag of proyecto.tecnologias; track tag) {
+                                <span class="card-proyecto__tag">{{ tag }}</span>
+                                }
+                            </div>
+                        </mat-card-content>
+
+                        <mat-card-actions class="card-proyecto__actions">
+                            <a
+                                mat-stroked-button
+                                [href]="proyecto.enlace"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <mat-icon>open_in_new</mat-icon>
+                                {{ proyecto.textoEnlace }}
+                            </a>
+                        </mat-card-actions>
+                    </mat-card>
+                </div>
+                }
+
+                @for (item of proximamente; track item) {
+                <div class="col-12 col-md-6">
+                    <div class="card-proyecto card-proyecto--coming">
+                        <mat-icon class="card-proyecto--coming__icon" fontIcon="schedule"></mat-icon>
+                        <span class="card-proyecto--coming__texto">Próximamente</span>
+                        <span class="card-proyecto--coming__sub">Nuevo proyecto en desarrollo</span>
+                    </div>
+                </div>
+                }
             </div>
         </div>
     </div>
