@@ -1,0 +1,37 @@
+<section id="experience" class="py-5 bg-white border-bottom border-secondary-subtle">
+  <div class="container">
+    
+    <h2 class="h3 fw-bold text-dark d-flex align-items-center gap-2 mb-5 tracking-tight">
+      <span>💼</span> Experiencia Laboral
+    </h2>
+
+    <div class="d-flex flex-column gap-5" *ngFor="let job of experiences()">
+      
+        <div class="row g-4 g-lg-5">
+          
+          <!-- Información de la Empresa y Cargo -->
+          <div class="col-8 col-lg-4 text-lg-end">
+            <h3 class="h5 fw-bold text-dark mb-1">{{ job.role }}</h3>
+            <p class="small fw-semibold text-secondary mb-2">{{ job.company }}</p>
+            <span class="d-inline-block border border-secondary-subtle bg-light text-secondary small px-2 py-1 rounded">
+              {{ job.period }}
+            </span>
+          </div>
+
+          <!-- Línea de Tiempo y Logros -->
+          <div class="col-8 col-lg-8 border-start border-2 border-dark ps-4 ps-lg-4 position-relative pb-2">
+            <!-- Marcador de la línea de tiempo -->
+            <div class="position-absolute top-0 start-0 translate-middle-x rounded-circle bg-dark border border-2 border-white" 
+                 style="width: 16px; height: 16px; margin-top: 6px;"></div>
+
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-2 text-secondary-emphasis small" *ngFor="let bullet of job.bullets">
+                <li class="d-flex align-items-start gap-2" ngFor="let bullet of job.bullets; trackBy: trackByBullet">
+                  <span class="text-secondary select-none">•</span>
+                  <span>{{ bullet }}</span>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>

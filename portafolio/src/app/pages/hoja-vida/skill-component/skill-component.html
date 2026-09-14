@@ -1,0 +1,47 @@
+<section id="skills" class="py-16 bg-slate-50 border-b border-slate-200">
+  <div class="custom-container">
+    <h2 class="text-2xl font-black text-dark flex items-center gap-3 mb-10 tracking-tight">
+      <mat-icon aria-hidden="true" aria-label="Example home icon" fontIcon="terminal"></mat-icon>
+      Habilidades Técnicas e Intereses
+    </h2>
+
+    <div class="row gx-5 gy-4 mt-5 g-4">
+      @for (group of skillGroups(); track group.category) {
+      <div
+        class="gx-5 offset-md-1 col-3 col-md-3 bg-light border rounded bg-white p-10 rounded-xl border border-slate-200 shadow-sm hover:border-slate-300 transition-all flex flex-col justify-between">
+        <div>
+          <div class="p-10 flex items-center gap-2 mb-4 text-slate-800 font-bold text-sm tracking-wide">
+            <mat-icon fontSet="material-symbols-outlined" aria-hidden="false" aria-label="category">{{ group.icon
+              }}</mat-icon>
+
+            <span>{{ group.category }}</span>
+          </div>
+
+          <div class="flex flex-wrap gap-2">
+            @for (item of group.items; track item) {
+            <span
+              class="text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-800 px-3 py-1.5 rounded-md border border-slate-200 transition-colors">
+              {{ item }}
+            </span>
+            }
+          </div>
+        </div>
+
+        @if (group.extraText) {
+        <p class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 font-mono">
+          {{ group.extraText }}
+        </p>
+        }
+      </div>
+      }
+    </div>
+    <div class="row">
+      <div class="col-12 mt-8">
+        <p class="text-sm text-slate-600 font-mono">
+          Nota: Las habilidades técnicas se actualizan periódicamente y reflejan el nivel de experiencia y conocimiento
+          en cada área.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

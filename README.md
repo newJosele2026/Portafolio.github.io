@@ -193,13 +193,8 @@ Se sube proyectos principales o Minimo Proyecto Viable(MPV).
 ### Comunicacion
 Pantalla sencilla que permite comunicarse al correo electronico.
 
-### Tareas faltantes
-- Crear pantalla de inicio.
-- Crear pantalla con la info de la hoja de vida.
-- Crear pantalla introductoria de proyecto.
-- Crear pantalla de comunicación personal.
-- Eliminar posteriormente despliegue inicial de prueba.
-- Agregar iconos a este README y pasar a ingles.
+### Tema
+- https://material.angular.dev?theme=azure-blue
 
 ### Comando usados como historico
 - ng new portafolio
@@ -219,6 +214,7 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - ng add @angular/material
 - ng generate module --routing menuRouting
 - npm install bootstrap --save 
+- npm install zone.js --save
 - npm generate service services
 - npx skills init
 - npx skills add https://github.com/anthropics/skills --skill claude-api

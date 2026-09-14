@@ -1,0 +1,63 @@
+<section id="about" class="pt-16 pb-14 border-b border-slate-200">
+    <div class="custom-container">
+        <div class="row grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+            <div class="col-8 lg:col-span-8 space-y-6">
+                <div>
+                    <h1
+                        class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight uppercase">
+                        {{ fullName() }}
+                    </h1>
+                    <p class="text-xs sm:text-sm font-bold tracking-widest text-slate-500 uppercase mt-2">
+                        Ingeniero de Sistemas <span class="text-slate-300 mx-2">|</span> Desarrollador de Software
+                    </p>
+                </div>
+
+                <div
+                    class="bg-slate-50 border border-slate-200 rounded-xl p-6 text-slate-700 leading-relaxed text-sm sm:text-base shadow-sm">
+                    {{ summary() }}
+                </div>
+
+                <!-- Botones de contacto y enlaces directos -->
+                <div class="flex flex-wrap items-center gap-3 pt-2 text-xs sm:text-sm font-medium text-slate-600">
+                    <span
+                        class="inline-flex items-center gap-2 bg-slate-100 px-3.5 py-2 rounded-lg border border-slate-200">
+                        📍 Bogotá, Colombia
+                    </span>
+                    <a href="tel:3138369492"
+                        class="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 px-3.5 py-2 rounded-lg border border-slate-200 transition-colors">
+                        📞 3138369492
+                    </a>
+                    <a href="mailto:hermanjosegarciapacheco@gmail.com"
+                        class="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 px-3.5 py-2 rounded-lg border border-slate-200 transition-colors">
+                        ✉️ hermanjosegarciapacheco&#64;gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/herman-jose-garcia-pacheco-1882944a" target="_blank"
+                        rel="noopener"
+                        class="inline-flex items-center gap-2 bg-blue-50 text-blue-700 hover:bg-blue-100 px-3.5 py-2 rounded-lg border border-blue-200 transition-colors">
+                        🔗 LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <!-- Previsualización de Hoja de Vida -->
+            <div class="col-4 lg:col-span-4 flex justify-center">
+                <mat-card class="center" appearance="outlined">
+                    <mat-card-header>
+                        <div mat-card-avatar class="example-header-image"></div>
+                        <mat-card-title>Resumen CV</mat-card-title>
+                        <mat-card-subtitle></mat-card-subtitle>
+                    </mat-card-header>
+                    <img mat-card-xl-image src="assets/HojaVida.png"
+                        alt="A profile picture of Herman José García Pacheco">
+
+                    <mat-card-content>
+
+                    </mat-card-content>
+                    <mat-card-actions>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</section>
