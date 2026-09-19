@@ -4,21 +4,6 @@
   padding: 1rem clamp(0.75rem, 3vw, 2rem);
 }
 
-.footerComponent > .row {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) repeat(2, minmax(8rem, 1fr));
-  gap: 1rem;
-  margin: 0;
-}
-
-.footerComponent .row,
-.footerComponent [class*='col-'],
-.footerComponent .col {
-  width: auto;
-  margin: 0;
-  padding: 0;
-}
-
 .footerComponent p {
   color: white;
   text-align: center; 
@@ -37,4 +22,9 @@
   .footerComponent {
     padding-block: 0.5rem;
   }
+}
+.botonFooter{
+   background-color: var(--color-primary, #0f172a);
+  border-color: var(--color-primary, #0f172a);
+  padding: 1rem clamp(0.75rem, 3vw, 2rem); 
 }

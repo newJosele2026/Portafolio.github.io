@@ -3,7 +3,7 @@
     <div class="col-1">
     </div>
     <div class="col-10 container text-center">
-        <h1>Contactame</h1>
+        <h1>Contáctame</h1>
         <div class="row">
             <p>Si deseas contactarme, puedes hacerlo a través de los siguientes medios:</p>
             <div class="col-12 row">
@@ -17,7 +17,8 @@
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/herman-jose-garcia-pacheco-1882944a" target="_blank"
                         rel="noopener noreferrer">Herman José García Pacheco</a></li>
             </ul>
-            <!--<div class="col-12">
+            <!-- formulario de contacto
+            <div class="col-12">
                 <form class="example-form">
                     <mat-form-field class="example-full-width">
                         <mat-label>Favorite food</mat-label>
@@ -31,17 +32,16 @@
                 </form>
             </div>-->
         </div>
-        <div class="row">
-            <div class="col-1">
-            </div>
-            <div class="col-10">
-            </div>
-            <div class="col-1">
-                <button matFab aria-label="Whatsapp">
-                    <a matFab href="https://wa.me/573138369492?text=Hola%20Herman,%20vi%20tu%20portafolio" target="_blank" target="_blank">
-                        <mat-icon svgIcon="whatsapp"></mat-icon>
-                    </a>
-                </button>
+        <!-- Sección de Donación / Apoyo -->
+        <div class="donation-section">
+            <p class="donation-text">
+                Si deseas apoyar mi trabajo y el desarrollo de mis proyectos, puedes realizar una donación voluntaria:
+            </p>
+            <div class="donation-action">
+                <a matFab extended [href]="paypalUrl" target="_blank" rel="noopener noreferrer" class="btn-donation" aria-label="Donar con PayPal">
+                    <mat-icon>favorite</mat-icon>
+                    Donar con PayPal
+                </a>
             </div>
         </div>
     </div>

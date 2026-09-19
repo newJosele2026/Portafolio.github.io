@@ -18,3 +18,15 @@
 		padding-block: 0.5rem;
 	}
 }
+
+.btn-whatsapp {
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000; 
+    &:hover {
+        transform: scale(1.08);
+    }
+}

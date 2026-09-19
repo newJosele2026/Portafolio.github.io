@@ -222,9 +222,12 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices
 - npx skills add https://github.com/pluginagentmarketplace/custom-plugin-angular --skill angular-material
 - comando final npm i
-- ng add angular-cli-ghpages()
-- ng deploy --base-href=github.com/newJosele2026/Portafolio.github.io/inicio
+- npm install -D angular-cli-ghpages
+- ng add angular-cli-ghpages
+- ng deploy --base-href=/Portafolio.github.io/
 - npm start
 ### REF
 - https://angular.dev/tutorials/learn-angular
 - https://material.angular.dev/
+- https://github.com/simple-icons/simple-icons
+- https://fonts.google.com/icons?icon.query=git
