@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" 
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" 
+     viewBox="0 0 500 480" 
+     width="100%" 
+     height="100%" 
+     id="svg-ixorasoft">
+  
+  <defs>
+    <!-- Gradiente Pétalos Principales (Escarlata vivo a Carmesí profundo) -->
+    <linearGradient id="petalGradPrimary" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF2E55" />
+      <stop offset="45%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#881337" />
+    </linearGradient>
+
+    <!-- Gradiente Pétalos Secundarios (Profundidad de inflorescencia) -->
+    <linearGradient id="petalGradSecondary" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF5277" />
+      <stop offset="50%" stop-color="#BE123C" />
+      <stop offset="100%" stop-color="#4C0519" />
+    </linearGradient>
+
+    <!-- Gradiente Ojo / Pistilo Central -->
+    <radialGradient id="pistilGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="35%" stop-color="#FBBF24" />
+      <stop offset="70%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </radialGradient>
+
+    <!-- Sombra difusa suave para UI moderna -->
+    <filter id="modernShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#881337" flood-opacity="0.22" />
+    </filter>
+
+    <!-- Pétalo Maestro de Ixora (Simetría tetrámera característica de 4 lóbulos) -->
+    <path id="masterPetal" 
+          d="M 0 0 
+             C -18 -25, -36 -55, -36 -88 
+             C -36 -120, -18 -134, 0 -134 
+             C 18 -134, 36 -120, 36 -88 
+             C 36 -55, 18 -25, 0 0 Z" />
+
+    <!-- Nervadura y reflejo de luz interior -->
+    <path id="petalGleam" 
+          d="M 0 -12 
+             C -6 -35, -7 -75, 0 -115 
+             C 7 -75, 6 -35, 0 -12 Z" 
+          fill="#FFFFFF" 
+          opacity="0.22" />
+  </defs>
+
+  <g inkscape:groupmode="layer" id="layer1" inkscape:label="Logo ixoraSoft">
+    
+    <!-- 1. ISOTIPO FLOR IXORA (Centrado en X:250, Y:180) -->
+    <g id="flower-symbol" transform="translate(250, 180)" filter="url(#modernShadow)">
+
+      <!-- Capa de fondo: Inflorescencia secundaria (45°, 135°, 225°, 315°) -->
+      <g id="cluster-petals" opacity="0.9">
+        <g transform="rotate(45) scale(0.82)">
+          <use href="#masterPetal" fill="url(#petalGradSecondary)" />
+        </g>
+        <g transform="rotate(135) scale(0.82)">
+          <use href="#masterPetal" fill="url(#petalGradSecondary)" />
+        </g>
+        <g transform="rotate(225) scale(0.82)">
+          <use href="#masterPetal" fill="url(#petalGradSecondary)" />
+        </g>
+        <g transform="rotate(315) scale(0.82)">
+          <use href="#masterPetal" fill="url(#petalGradSecondary)" />
+        </g>
+      </g>
+
+      <!-- Capa principal: Los 4 pétalos característicos de la flor de Ixora (Cruz botánica) -->
+      <g id="main-petals">
+        <!-- Pétalo Superior (0°) -->
+        <g id="petal-top" transform="rotate(0)">
+          <use href="#masterPetal" fill="url(#petalGradPrimary)" />
+          <use href="#petalGleam" />
+        </g>
+        <!-- Pétalo Derecho (90°) -->
+        <g id="petal-right" transform="rotate(90)">
+          <use href="#masterPetal" fill="url(#petalGradPrimary)" />
+          <use href="#petalGleam" />
+        </g>
+        <!-- Pétalo Inferior (180°) -->
+        <g id="petal-bottom" transform="rotate(180)">
+          <use href="#masterPetal" fill="url(#petalGradPrimary)" />
+          <use href="#petalGleam" />
+        </g>
+        <!-- Pétalo Izquierdo (270°) -->
+        <g id="petal-left" transform="rotate(270)">
+          <use href="#masterPetal" fill="url(#petalGradPrimary)" />
+          <use href="#petalGleam" />
+        </g>
+      </g>
+
+      <!-- Pistilo Central (Garganta tubular de la flor) -->
+      <g id="pistil-center">
+        <!-- Anillo exterior cálido -->
+        <circle cx="0" cy="0" r="14" fill="url(#pistilGrad)" />
+        <!-- Corona de anteras / estambres en 4 puntos -->
+        <circle cx="0" cy="-7" r="2.2" fill="#FEF08A" />
+        <circle cx="7" cy="0" r="2.2" fill="#FEF08A" />
+        <circle cx="0" cy="7" r="2.2" fill="#FEF08A" />
+        <circle cx="-7" cy="0" r="2.2" fill="#FEF08A" />
+        <!-- Núcleo central luminoso -->
+        <circle cx="0" cy="0" r="4.5" fill="#FFFFFF" opacity="0.9" />
+      </g>
+    </g>
+
+    <!-- 2. LOGOTIPO TIPOGRÁFICO (ixoraSoft) -->
+    <g id="brand-typography">
+      <!-- Marca principal -->
+      <text x="250" y="380" 
+            text-anchor="middle" 
+            font-family="'Inter', 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" 
+            font-size="46" 
+            letter-spacing="-0.5px">
+        <!-- "ixora" en gris grafito corporativo y peso medium -->
+        <tspan fill="#0F172A" font-weight="500">ixora</tspan><!--
+        --> <!-- "Soft" en rojo carmesí de acento con peso bold -->
+        <tspan fill="#E11D48" font-weight="800">Soft</tspan>
+      </text>
+
+      <!-- Subtítulo de categoría tecnológica / Descriptor de marca -->
+      <text x="250" y="414" 
+            text-anchor="middle" 
+            font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" 
+            font-size="12" 
+            font-weight="600" 
+            letter-spacing="5px" 
+            fill="#64748B">
+        SOFTWARE &amp; CLOUD
+      </text>
+    </g>
+
+  </g>
+</svg>
