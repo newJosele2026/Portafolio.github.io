@@ -9,7 +9,7 @@
 
 </div>
 
-# Portfolio V 0.2.1
+# Portfolio V 0.2.8
 This proyect was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2., it will show a profesional profile of Herman José García Pacheco.
 
 The published GitHub version comes from `portafolio/package.json`. Bump it from the `portafolio/` folder with `npm run version:patch` (or `version:minor` / `version:major`), commit, and push `master`. GitHub Actions creates the matching Release `vX.Y.Z`.
@@ -105,7 +105,7 @@ Simple screen that allows contacting via email.
 
 </div>
 
-# Portafolio V 0.2.1
+# Portafolio V 0.2.8
 Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2. estare mostrando el perfil profesional de Herman José García Pacheco.
 
 La versión que se publica en GitHub sale de `portafolio/package.json`. Súbela desde la carpeta `portafolio/` con `npm run version:patch` (o `version:minor` / `version:major`), haz commit y push a `master`. GitHub Actions crea el Release `vX.Y.Z`.
@@ -231,3 +231,4 @@ Pantalla sencilla que permite comunicarse al correo electronico.
 - https://material.angular.dev/
 - https://github.com/simple-icons/simple-icons
 - https://fonts.google.com/icons?icon.query=git
+- https://docs.wompi.co/docs/colombia/inicio-rapido/

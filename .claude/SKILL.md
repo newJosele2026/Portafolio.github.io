@@ -9,7 +9,7 @@
 
 </div>
 
-# Portfolio V 0.2.1
+# Portfolio V 0.2.8
 This proyect was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2., it will show a profesional profile of Herman José García Pacheco.
 
 ## Requeriment
@@ -103,7 +103,7 @@ Simple screen that allows contacting via email.
 
 </div>
 
-# Portafolio V 0.2.1
+# Portafolio V 0.2.8
 Este proyecto fue generado usando [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2. estare mostrando el perfil profesional de Herman José García Pacheco.
 
 ## Requerimientos

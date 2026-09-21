@@ -35,6 +35,10 @@ ul {
         justify-content: center;
         align-items: center;
     }
+    
+    mat-icon {
+        color: #ff4757;
+    }
 
     .btn-donation {
         text-decoration: none;
@@ -48,13 +52,14 @@ ul {
         box-shadow: 0 4px 14px rgba(0, 112, 186, 0.35);
         transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-        mat-icon {
-            color: #ff4757;
-        }
-
         &:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 18px rgba(0, 112, 186, 0.5);
         }
+            mat-icon {
+        color: #000000; 
+        }
+
     }
+
 }

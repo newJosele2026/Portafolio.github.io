@@ -16,6 +16,8 @@
                         href="mailto:hermanjosegarciapacheco@gmail.com">hermanjosegarciapacheco@gmail.com</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/herman-jose-garcia-pacheco-1882944a" target="_blank"
                         rel="noopener noreferrer">Herman José García Pacheco</a></li>
+                <li>Fiverr: <a href="https://es.fiverr.com/s/em6rZDm" target="_blank"
+                        rel="noopener noreferrer">fiver Herman José García Pacheco</a></li>
             </ul>
             <!-- formulario de contacto
             <div class="col-12">
@@ -37,14 +39,30 @@
             <p class="donation-text">
                 Si deseas apoyar mi trabajo y el desarrollo de mis proyectos, puedes realizar una donación voluntaria:
             </p>
-            <div class="donation-action">
-                <a matFab extended [href]="paypalUrl" target="_blank" rel="noopener noreferrer" class="btn-donation" aria-label="Donar con PayPal">
-                    <mat-icon>favorite</mat-icon>
-                    Donar con PayPal
-                </a>
+            <mat-icon>favorite</mat-icon>
+            <div class="donation-action row g-1 g-lg-1">
+                <div class="col-12 ">
+                    <a matFab extended [href]="paypalUrl" target="_blank" rel="noopener noreferrer" class="btn-donation"
+                        aria-label="Donar con PayPal">
+                        <mat-icon svgIcon="paypal"></mat-icon>
+                        Donar con PayPal
+                    </a>
+                </div>
+                <div class="col-12">
+                    <a matFab extended [href]="patreonUrl" target="_blank" rel="noopener noreferrer"
+                        class="btn-donation" aria-label="Apoyame en mi Patreon">
+                        <mat-icon svgIcon="patreon"></mat-icon>
+                        Apoyame en mi Patreon
+                    </a>
+                </div>
+                <div class="col-12">
+                    <a matFab extended [href]="wompiUrl" target="_blank" rel="noopener noreferrer"
+                        class="btn-donation" aria-label="Apoyame en mi nequi o principales medios de pagos habilitado en Colombia">
+                        <mat-icon svgIcon="wompi"></mat-icon>
+                        Donar con wompi
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-1">
     </div>
 </div>
