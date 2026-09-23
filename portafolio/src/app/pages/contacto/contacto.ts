@@ -24,7 +24,7 @@ export class Contacto {
    * Enlaces para recibir donaciones.
    */
   paypalUrl = 'https://paypal.me/hermanjosegarciapach';
-  patreonUrl = 'https://www.patreon.com/cw/newDevJosele2026/membership';
+  patreonUrl = 'https://patreon.com/newDevJosele2026?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink';
   wompiUrl = 'https://checkout.wompi.co/l/VPOS_zJkYzv';
   
   private iconRegistry = inject(MatIconRegistry);
